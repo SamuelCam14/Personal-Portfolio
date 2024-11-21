@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Estilos personalizados */
+
+.badge {
+    @apply border-solid border-[1px] inline-block px-3 py-2 rounded-3xl border-neutral-700/75 mb-4 mt-24;
+}
+
+.badge-text {
+    @apply flex items-center gap-2 font-bold tracking-tight;
+}
+
+.h2-text {
+    @apply text-6xl font-bold tracking-tighter bg-gradient-to-r from-rose-200/[0.85] to-purple-300/[0.85] bg-clip-text text-transparent mb-12;
+}
+
+.about-text {
+    @apply text-xl font-bold;
+}
+
+.btn-gradient {
+    @apply bg-gradient-to-r from-rose-200/[0.8] to-purple-300/[0.8] rounded-3xl hover:bg-purple-500 cursor-pointer text-center text-neutral-800 text-xl font-bold;
+}
