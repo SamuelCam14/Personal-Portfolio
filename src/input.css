@@ -28,3 +28,8 @@
 .btn-gradient:hover {
   transform: scale(1.1); /* Botón más grande */
 }
+
+/* SOCIAL BUTTONS */
+.social-btn {
+  @apply border-solid border-neutral-800 border-[1px] rounded-3xl p-4 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110;
+}
