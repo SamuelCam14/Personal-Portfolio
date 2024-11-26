@@ -33,3 +33,14 @@
 .social-btn {
   @apply border-solid border-neutral-800 border-[1px] rounded-3xl p-4 cursor-pointer transition-transform duration-300 ease-in-out hover:scale-110;
 }
+
+/* NAV BUTTONS */
+.nav-btn {
+  @apply cursor-pointer text-xl font-bold bg-neutral-950 backdrop-blur-lg bg-opacity-25 py-4 px-7 border-solid border-[1px] border-neutral-700 rounded-3xl hover:text-neutral-200;
+}
+.nav-link {
+  @apply active:bg-neutral-700 active:text-neutral-200;
+}
+.nav-link.active {
+  @apply bg-neutral-700 text-neutral-200;
+}
